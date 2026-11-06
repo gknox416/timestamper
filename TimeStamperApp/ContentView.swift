@@ -9,7 +9,7 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 20) {
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Timestamper").font(.largeTitle.bold())
+                    Text("TimeStamper").font(.largeTitle.bold())
                     Text("Set a new start time.").foregroundStyle(.secondary)
                 }
                 Spacer()

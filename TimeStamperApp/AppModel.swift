@@ -24,7 +24,7 @@ final class AppModel: ObservableObject {
     @Published var summary: String?
     @Published var message: String?
 
-    private let worker = DispatchQueue(label: "Timestamper.processing", qos: .userInitiated)
+    private let worker = DispatchQueue(label: "TimeStamper.processing", qos: .userInitiated)
 
     var targetError: String? {
         do { _ = try Timecode(targetText, frameRate: frameRate); return nil }

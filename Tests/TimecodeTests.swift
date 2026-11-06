@@ -1,5 +1,5 @@
 import XCTest
-@testable import Timestamper
+@testable import TimeStamper
 
 final class TimecodeTests: XCTestCase {
     func testKnownOneHourReferences() throws {

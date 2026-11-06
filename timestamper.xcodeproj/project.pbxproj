@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		76F1F2F4306A03BF0030BA72 /* timestamper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = timestamper; sourceTree = BUILT_PRODUCTS_DIR; };
-        A10000000000000000000001 /* Timestamper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timestamper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000001 /* TimeStamper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeStamper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -38,9 +38,9 @@
 			path = timestamper;
 			sourceTree = "<group>";
 		};
-        A10000000000000000000004 /* TimestamperApp */ = {
+        A10000000000000000000004 /* TimeStamperApp */ = {
             isa = PBXFileSystemSynchronizedRootGroup;
-            path = TimestamperApp;
+            path = TimeStamperApp;
             sourceTree = "<group>";
         };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				76F1F2F6306A03BF0030BA72 /* timestamper */,
-				A10000000000000000000004 /* TimestamperApp */,
+				A10000000000000000000004 /* TimeStamperApp */,
 				76F1F2F5306A03BF0030BA72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				76F1F2F4306A03BF0030BA72 /* timestamper */,
-				A10000000000000000000001 /* Timestamper.app */,
+				A10000000000000000000001 /* TimeStamper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,15 +105,15 @@
 			productReference = 76F1F2F4306A03BF0030BA72 /* timestamper */;
 			productType = "com.apple.product-type.tool";
 		};
-        A10000000000000000000003 /* Timestamper App */ = {
+        A10000000000000000000003 /* TimeStamper App */ = {
             isa = PBXNativeTarget;
             buildConfigurationList = A10000000000000000000005;
             buildPhases = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000010,);
             buildRules = ();
             dependencies = ();
             fileSystemSynchronizedGroups = (76F1F2F6306A03BF0030BA72, A10000000000000000000004,);
-            name = "Timestamper App";
-            productName = Timestamper;
+            name = "TimeStamper App";
+            productName = TimeStamper;
             productReference = A10000000000000000000001;
             productType = "com.apple.product-type.application";
         };
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-                A10000000000000000000003 /* Timestamper App */,
+                A10000000000000000000003 /* TimeStamper App */,
 				76F1F2F3306A03BF0030BA72 /* timestamper */,
 			);
 		};
@@ -320,13 +320,13 @@
                 CODE_SIGN_STYLE = Automatic;
                 CODE_SIGN_IDENTITY = "-";
                 GENERATE_INFOPLIST_FILE = YES;
-                INFOPLIST_KEY_CFBundleDisplayName = Timestamper;
+                INFOPLIST_KEY_CFBundleDisplayName = TimeStamper;
                 INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
                 PRODUCT_BUNDLE_IDENTIFIER = com.timestamper.desktop;
-                PRODUCT_NAME = Timestamper;
-                MARKETING_VERSION = 0.1.0;
+                PRODUCT_NAME = TimeStamper;
+                MARKETING_VERSION = 0.1.1;
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CURRENT_PROJECT_VERSION = 1;
+                CURRENT_PROJECT_VERSION = 2;
                 SWIFT_VERSION = 5.0;
                 ENABLE_HARDENED_RUNTIME = YES;
                 LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -339,13 +339,13 @@
                 CODE_SIGN_STYLE = Automatic;
                 CODE_SIGN_IDENTITY = "-";
                 GENERATE_INFOPLIST_FILE = YES;
-                INFOPLIST_KEY_CFBundleDisplayName = Timestamper;
+                INFOPLIST_KEY_CFBundleDisplayName = TimeStamper;
                 INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
                 PRODUCT_BUNDLE_IDENTIFIER = com.timestamper.desktop;
-                PRODUCT_NAME = Timestamper;
-                MARKETING_VERSION = 0.1.0;
+                PRODUCT_NAME = TimeStamper;
+                MARKETING_VERSION = 0.1.1;
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CURRENT_PROJECT_VERSION = 1;
+                CURRENT_PROJECT_VERSION = 2;
                 SWIFT_VERSION = 5.0;
                 ENABLE_HARDENED_RUNTIME = YES;
                 LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

@@ -1,4 +1,4 @@
-# Timestamper
+# TimeStamper
 
 A macOS utility for making verified Broadcast WAV timestamp copies, with a
 SwiftUI desktop app and a command-line interface sharing the same processing code.
@@ -12,7 +12,7 @@ asset catalog. Build a self-contained universal installer with:
 Scripts/package-macos.sh
 ```
 
-This produces `Outputs/Releases/0.1.0/`, containing the `.pkg`, app, and SHA-256
+This produces `Outputs/Releases/0.1.1/`, containing the `.pkg`, app, and SHA-256
 checksum. Release folders are never overwritten; set `VERSION` for a new version.
 The app supports macOS 14.8 or later on Apple Silicon and Intel. The installer
 places it in `/Applications` with no external runtime or downloads.
@@ -26,7 +26,7 @@ in this repository. See `RELEASE_NOTES.md` for this preview's limitations.
 
 ## Desktop app
 
-Open `timestamper.xcodeproj`, select the **Timestamper App** scheme, and Run.
+Open `timestamper.xcodeproj`, select the **TimeStamper App** scheme, and Run.
 The original **timestamper** scheme remains the command-line tool; `swift test`
 runs its shared processing regression tests.
 
@@ -125,7 +125,7 @@ filenames does not change embedded media identity.
 A comparison with the copy restamped by Pro Tools in the user's test session
 showed changes in BEXT OriginatorReference, BEXT UMID material identity, and
 matching compact identity bytes in `regn` and `umid`. Pro Tools also modified
-opaque `minf`/`regn` fields. Those opaque changes are not reproduced by Timestamper.
+opaque `minf`/`regn` fields. Those opaque changes are not reproduced by TimeStamper.
 
 The writer now recognizes a narrow Pro Tools metadata profile matching these
 fixtures. It generates a new random 16-byte material identity per copy, mirrors

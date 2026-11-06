@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import Timestamper
+@testable import TimeStamper
 
 final class BatchProcessorTests: XCTestCase {
     private var root: URL!

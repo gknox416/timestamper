@@ -1,4 +1,8 @@
-# Timestamper 0.1.0 — development preview
+# TimeStamper 0.1.1 — development preview
+
+Branding update: the app is now consistently named **TimeStamper**, including its
+window, menus, Finder bundle, icon source, Xcode scheme, and installer. Audio
+processing behavior and the bundle/installer identifiers are unchanged.
 
 A macOS utility for creating verified Broadcast WAV copies with a new start timestamp.
 
@@ -10,7 +14,7 @@ A macOS utility for creating verified Broadcast WAV copies with a new start time
 
 ## Installer
 
-`Timestamper-0.1.0-universal-unsigned.pkg` contains the complete app for Apple Silicon
+`TimeStamper-0.1.1-universal-unsigned.pkg` contains the complete app for Apple Silicon
 and Intel Macs running macOS 14.8 or later. It installs into `/Applications` and
 requires no Python, Swift toolchain, source checkout, or extra downloads to run.
 The package has no installer scripts. It replaces an existing app at that location.

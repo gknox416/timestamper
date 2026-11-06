@@ -3,13 +3,13 @@
   <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
     <BuildActionEntries>
       <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
-        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A10000000000000000000003" BuildableName="Timestamper.app" BlueprintName="Timestamper App" ReferencedContainer="container:timestamper.xcodeproj"/>
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A10000000000000000000003" BuildableName="TimeStamper.app" BlueprintName="TimeStamper App" ReferencedContainer="container:timestamper.xcodeproj"/>
       </BuildActionEntry>
     </BuildActionEntries>
   </BuildAction>
   <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.PosixSpawn" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" allowLocationSimulation="YES">
     <BuildableProductRunnable runnableDebuggingMode="0">
-      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A10000000000000000000003" BuildableName="Timestamper.app" BlueprintName="Timestamper App" ReferencedContainer="container:timestamper.xcodeproj"/>
+      <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="A10000000000000000000003" BuildableName="TimeStamper.app" BlueprintName="TimeStamper App" ReferencedContainer="container:timestamper.xcodeproj"/>
     </BuildableProductRunnable>
   </LaunchAction>
   <AnalyzeAction buildConfiguration="Debug"/>

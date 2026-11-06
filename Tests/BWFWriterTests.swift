@@ -1,7 +1,7 @@
 import Foundation
 import CryptoKit
 import XCTest
-@testable import Timestamper
+@testable import TimeStamper
 
 final class BWFWriterTests: XCTestCase {
     private var temporary: URL!

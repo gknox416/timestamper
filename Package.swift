@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Timestamper",
+    name: "TimeStamper",
     platforms: [.macOS(.v14)],
-    products: [.executable(name: "timestamper", targets: ["Timestamper"])],
+    products: [.executable(name: "timestamper", targets: ["TimeStamper"])],
     targets: [
-        .executableTarget(name: "Timestamper", path: "timestamper"),
-        .testTarget(name: "TimestamperTests", dependencies: ["Timestamper"], path: "Tests")
+        .executableTarget(name: "TimeStamper", path: "timestamper"),
+        .testTarget(name: "TimeStamperTests", dependencies: ["TimeStamper"], path: "Tests")
     ]
 )
