@@ -1,0 +1,13 @@
+.build/
+Outputs/
+.DS_Store
+
+# Local IDE state, test sessions, and credentials
+**/xcuserdata/
+*.xcuserstate
+.swiftpm/
+TestFixtures/PT Sessions/
+.env
+.env.*
+*.p12
+*.p8

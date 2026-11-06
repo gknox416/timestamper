@@ -1,0 +1,18 @@
+name: Build and test
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Core tests
+        run: swift test
+      - name: Build universal desktop app
+        run: >-
+          xcodebuild -project timestamper.xcodeproj -scheme 'Timestamper App'
+          -configuration Release -derivedDataPath .build/Desktop
+          ARCHS='arm64 x86_64' ONLY_ACTIVE_ARCH=NO CODE_SIGNING_ALLOWED=NO build
